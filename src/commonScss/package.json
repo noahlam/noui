@@ -1,0 +1,17 @@
+{
+  "name": "commonscss",
+  "version": "1.0.0",
+  "description": "a common scss kit",
+  "main": "noahcommon.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "scss",
+    "css",
+    "commoncss",
+    "commonscss"
+  ],
+  "author": "noah",
+  "license": "MIT"
+}

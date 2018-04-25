@@ -1,0 +1,157 @@
+<html>
+<body>
+<script>
+  let s =''
+
+
+  // 以下是margin
+  // for(let i=0;i<101;i++){
+  //   if(i<51){
+  //     s+=`.m${i}{margin:pr(${i});} `
+  //   }else if(i%5==0){
+  //     s+=`.m${i}{margin:pr(${i});} `
+  //   }
+  // }
+  // s+='\n\n\n'
+  // for(let i=0;i<101;i++){
+  //   if(i<51){
+  //     s+=`.ml${i}{margin-left:pr(${i});} `
+  //   }else if(i%5==0){
+  //     s+=`.ml${i}{margin-left:pr(${i});} `
+  //   }
+  // }
+  // s+='\n\n\n'
+  // for(let i=0;i<101;i++){
+  //   if(i<51){
+  //     s+=`.mr${i}{margin-right:pr(${i});} `
+  //   }else if(i%5==0){
+  //     s+=`.mr${i}{margin-right:pr(${i});} `
+  //   }
+  // }
+  // s+='\n\n\n'
+  // for(let i=0;i<101;i++){
+  //   if(i<51){
+  //     s+=`.mt${i}{margin-top:pr(${i});} `
+  //   }else if(i%5==0){
+  //     s+=`.mt${i}{margin-top:pr(${i});} `
+  //   }
+  // }
+  // s+='\n\n\n'
+  // for(let i=0;i<101;i++){
+  //   if(i<51){
+  //     s+=`.mb${i}{margin-bottom:pr(${i});} `
+  //   }else if(i%5==0){
+  //     s+=`.mb${i}{margin-bottom:pr(${i});} `
+  //   }
+  // }
+  // s+='\n\n\n'
+  // for(let i=0;i<101;i++){
+  //   if(i<51){
+  //     s+=`.mlr${i}{margin-left:pr(${i});margin-right:pr(${i});} `
+  //   }else if(i%5==0){
+  //     s+=`.mlr${i}{margin-left:pr(${i});margin-right:pr(${i});} `
+  //   }
+  // }
+  // s+='\n\n\n'
+  // for(let i=0;i<101;i++){
+  //   if(i<51){
+  //     s+=`.mtb${i}{margin-top:pr(${i});margin-bottom:pr(${i});} `
+  //   }else if(i%5==0){
+  //     s+=`.mtb${i}{margin-top:pr(${i});margin-bottom:pr(${i});} `
+  //   }
+  // }
+
+
+  // 以下是Padding的样式
+  // for(let i=0;i<101;i++){
+  //   if(i<51){
+  //     s+=`.p${i}{padding:pr(${i});} `
+  //   }else if(i%5==0){
+  //     s+=`.p${i}{padding:pr(${i});} `
+  //   }
+  // }
+  // s+='\n\n\n'
+  // for(let i=0;i<101;i++){
+  //   if(i<51){
+  //     s+=`.pl${i}{padding-left:pr(${i});} `
+  //   }else if(i%5==0){
+  //     s+=`.pl${i}{padding-left:pr(${i});} `
+  //   }
+  // }
+  // s+='\n\n\n'
+  // for(let i=0;i<101;i++){
+  //   if(i<51){
+  //     s+=`.pr${i}{padding-right:pr(${i});} `
+  //   }else if(i%5==0){
+  //     s+=`.pr${i}{padding-right:pr(${i});} `
+  //   }
+  // }
+  // s+='\n\n\n'
+  // for(let i=0;i<101;i++){
+  //   if(i<51){
+  //     s+=`.pt${i}{padding-top:pr(${i});} `
+  //   }else if(i%5==0){
+  //     s+=`.pt${i}{padding-top:pr(${i});} `
+  //   }
+  // }
+  // s+='\n\n\n'
+  // for(let i=0;i<101;i++){
+  //   if(i<51){
+  //     s+=`.pb${i}{padding-bottom:pr(${i});} `
+  //   }else if(i%5==0){
+  //     s+=`.pb${i}{padding-bottom:pr(${i});} `
+  //   }
+  // }
+  // s+='\n\n\n'
+  // for(let i=0;i<101;i++){
+  //   if(i<51){
+  //     s+=`.plr${i}{padding-left:pr(${i});padding-right:pr(${i});} `
+  //   }else if(i%5==0){
+  //     s+=`.plr${i}{padding-left:pr(${i});padding-right:pr(${i});} `
+  //   }
+  // }
+  // s+='\n\n\n'
+  // for(let i=0;i<101;i++){
+  //   if(i<51){
+  //     s+=`.ptb${i}{padding-top:pr(${i});padding-bottom:pr(${i});} `
+  //   }else if(i%5==0){
+  //     s+=`.ptb${i}{padding-top:pr(${i});padding-bottom:pr(${i});} `
+  //   }
+  // }
+
+  // 宽度跟高度
+  // s+='\n\n\n'
+  // for(let i=0;i<101;i++){
+  //     s+=`.w${i}{width:${i}%;}`
+  // }
+  // s+='\n\n\n'
+  // for(let i=0;i<101;i++){
+  //     s+=`.w${i}r{width:pr(${i});}`
+  // }
+  // s+='\n\n\n'
+  // for(let i=0;i<101;i++){
+  //     s+=`.w${i}v{width:${i}vw;}`
+  // }
+  //
+  // s+='\n\n\n'
+  // for(let i=0;i<101;i++){
+  //     s+=`.h${i}r{height:pr(${i});}`
+  // }
+  //
+  // s+='\n\n\n'
+  // for(let i=0;i<101;i++){
+  //     s+=`.lh${i}{line-height:pr(${i});}`
+  // }
+
+  // 其他
+  // s+='\n\n\n'
+  // for(let i=8;i<51;i++){
+  //     s+=`.f${i}{font-size:pr(${i});}`
+  // }
+
+
+
+  console.log(s)
+</script>
+</body>
+</html>
