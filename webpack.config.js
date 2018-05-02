@@ -1,5 +1,7 @@
 const path = require('path')
 const { VueLoaderPlugin } = require('vue-loader')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+
 const config = {
   entry: './example/index.js',
   output: {
@@ -14,7 +16,12 @@ const config = {
     }
   },
   plugins: [
-    new VueLoaderPlugin()
+    new VueLoaderPlugin(),
+    new HtmlWebpackPlugin({
+      template: './index.html',
+      filename: './index.html',
+      inject: true,
+    })
   ],
   module: {
     rules: [
