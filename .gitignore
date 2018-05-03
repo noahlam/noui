@@ -5,7 +5,6 @@ yarn-debug.log*
 yarn-error.log*
 .idea
 # Editor directories and files
-.idea
 *.suo
 *.ntvs*
 *.njsproj

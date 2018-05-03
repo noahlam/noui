@@ -34,7 +34,7 @@ const config = {
   devServer: {
     historyApiFallback: true,
     inline: true,
-    port:9999,
+    port:8125,
     contentBase: path.join(__dirname, "dist")
   },
 
