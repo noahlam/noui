@@ -1,26 +1,25 @@
 <template>
   <div class="wrap">
-    <rate v-model="vstar" writeable="true" />
-
+    <rate v-model="vstar" size="30" :writeable="true" />
+    <!--<toast></toast>-->
   </div>
 </template>
 
 <script>
   import rate from "../src/rate/rate"
+  import toast from "../src/vtoast/toast"
   export default {
     data() {
       return {
-        vstar: 4.3
+        vstar: 4.3,
       }
     },
     components:{
-      rate
+      rate,toast
     },
     methods:{
-
     },
-    mounted:{
-
+    mounted() {
     }
   }
 </script>
