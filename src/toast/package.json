@@ -1,12 +1,16 @@
 {
-  "name": "nrate",
+  "name": "ntoast",
   "version": "0.0.1",
-  "description": "nrate",
-  "main": "rate.vue",
+  "description": "ntoast",
+  "main": "toast.js",
+  "files": [
+    "toast.js",
+    "toast.vue"
+  ],
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/noahlam/nui.git/src/rate"
+    "url": "git+https://github.com/noahlam/nui.git/src/toast"
   },
   "keywords": [
     "vue",

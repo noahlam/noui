@@ -1,12 +1,16 @@
 {
-  "name": "nrate",
+  "name": "nloading",
   "version": "0.0.1",
-  "description": "nrate",
-  "main": "rate.vue",
+  "description": "nloading",
+  "main": "loading.js",
+  "files": [
+    "loading.js",
+    "loading.vue"
+  ],
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/noahlam/nui.git/src/rate"
+    "url": "git+https://github.com/noahlam/nui.git/src/loading"
   },
   "keywords": [
     "vue",
