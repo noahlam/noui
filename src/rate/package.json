@@ -1,0 +1,27 @@
+{
+  "name": "vrate",
+  "version": "0.0.1",
+  "description": "dd",
+  "main": "rate.vue",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noahlam/nui.git/src/rate"
+  },
+  "keywords": [
+    "vue",
+    "rate",
+    "js",
+    "nui",
+    "component"
+  ],
+  "author": "noah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/noahlam/nui/issues"
+  },
+  "homepage": "https://github.com/noahlam/nui#readme",
+  "dependencies": {
+    "vue": "*"
+  }
+}
