@@ -1,7 +1,7 @@
 {
   "name": "noui",
   "version": "0.0.1",
-  "description": "some components for Vue whitch daily development accumurated ",
+  "description": "Some components for Vue whitch daily development accumurated",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --mode development --inline --progress --config webpack.config.js",
